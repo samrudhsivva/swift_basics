@@ -1,0 +1,74 @@
+var str="hello world"
+print(str)
+
+var temp:String="samrudh sivva"
+print("value of temp is"+temp)
+
+
+print("hi \n this is \\")
+
+str="dooe"
+
+let PI:Float=3.14
+var r:Float=10
+print("the area of circle is \(PI*r*r)  \(8+9)sq.mts ")
+
+var a=1,b=4
+print(a+b)
+print(a&b)
+
+let k = (a>b) ?  ("jhhi") : ("wefiu");
+
+print(k)
+
+var temp1:String = "Samrudh"
+temp1.append("sivva")
+print(temp1)
+
+for i in temp1{
+    print(i," \n")
+    }
+var value = 20
+
+switch value {
+
+case 60  :
+
+print( "Value of index is 60")
+
+fallthrough
+
+case 20,30  :
+
+print( "the value is either 20 or 30")
+
+fallthrough
+
+case 40  :
+
+print( "The value is 40")
+
+default :
+
+print( "Wrong Case Input")
+
+}
+
+for i in 1...121{
+    print(i)
+    }
+ //c style is removed in swift 3
+ 
+ for i in stride(from:1,to:10,by:2){
+     print(i)
+ }
+var p=15
+repeat{
+    print("looping..")
+    p-=1
+}while(p>5)
+
+var arr = [Int]()
+arr.append(898)
+print(arr)
+
