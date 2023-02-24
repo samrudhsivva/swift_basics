@@ -1,0 +1,51 @@
+var num: Int16=34
+print(num)
+var name:String="samrudh"
+print(name.count)
+//print(name.capitalized())
+print(name+" sivva")
+name.append("ioefb")
+print(name)
+
+var s=1.3
+s+=1//no error
+print(s)
+
+var k=1
+//k+=1.4//error
+print(k)
+
+var l=1.2+3//no error
+var m=Int(l)
+print("value of m is",m)
+print(Int(s))
+
+var variable_1=345
+typealias f=Float
+let num1:f=2.34
+print(num1)
+
+let s11="priwhh weiuwejd ljkndp pjpqed poqjd"
+//s11.capitalized
+print(s11.isEmpty)
+
+let hello = "hello, world!"
+let shout = "UPPERCASED"
+let lorem = "Itaque enim excepturi placeat aperiam sunt molestiae sint ea."
+import Foundation
+print(hello.capitalized)
+// Hello, World!
+print(shout.uppercased)
+// Uppercased
+print(lorem.lowercased)
+
+print("enter a number")
+var number=readLine()
+print(type(of:number))
+//number=Int(number)
+print(number!)
+//let k34 = (Int(number!)%2==0) ? "even" :"odd"
+let optionalString: String? = "100"
+if let string = optionalString, let myInt = Int(string) {
+     print("Int : \(myInt)")
+}
