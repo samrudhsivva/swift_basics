@@ -1,0 +1,47 @@
+var someValue:Int?
+var someAnotherValue:Int!
+print(someValue)
+print(someAnotherValue)
+
+var someValue1:Int!
+let defaultValue = 5
+let unwrappedValue:Int = someValue1 ?? defaultValue
+print(unwrappedValue)
+
+var someValue2:Int?
+var someAnotherValue2:Int! = 0
+       
+if let temp = someValue2 {
+	print("It has some value \(temp)") 
+} else {
+	print("doesn't contain value")
+}
+        
+if let temp = someAnotherValue2 {
+	print("It has some value \(temp)")
+} else {
+	print("doesn't contain value")      
+}
+
+
+var someValue3:Int?
+var someAnotherValue3:Int! = 0
+        
+if someValu3e != nil {
+	print("It has some value \(someValue3!)")
+} else {
+	print("doesn't contain value")
+}
+        
+if someAnotherValue3 != nil {
+	print("It has some value \(someAnotherValue3!)")
+} else {
+	print("doesn't contain value")
+}
+
+let someValue4:Int! = 5
+print(someValue4)
+
+let someValue5:Int? = 5
+print(someValue5)
+print(someValue5!)
